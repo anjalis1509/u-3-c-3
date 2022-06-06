@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      #navbar {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        background-color: teal;
+        color: white;
+        border-radius: 10px;
+        border: none;
+      }
+     input {
+       margin-left: 500px;
+       margin-top: 40px;
+       height: 25px;
+       width: 300px;
+     }
+     #submit {
+       width: 100px;
+       margin-left: 600px;
+       cursor: pointer;
+       background-color: teal;
+       color: white;
+       border: none;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div><h3>Sign Up</h3></div>
+      <div> <a href="voucher.html">Purchase Voucher</a></div>
+
+    </div>
+    <!-- - name input box :- "name"
+  - email input box :- "email"
+  - Address input box :- "address"
+  - Amount input box :- "amount" 
+  - Submit button :- "submit"
+  - The user will be stored with key:- "user"
+  - The input fields should become empty after submitting -->
+          
+          <form onsubmit="myFun()" action="">
+            <input id="name" type="text" placeholder="name">
+            <br>
+            <input id="email" type="email" placeholder="email">
+            <br>
+            <input id="address" type="text" placeholder="address">
+            <br>
+            <input id="amount" type="number" placeholder="amount">
+            <br>
+            <input  id="submit" type="submit" >
+          </form>
+            
+        
+    
+  </body>
+</html>
+<script src="./scripts/main.js"></script>
